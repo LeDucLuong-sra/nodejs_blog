@@ -1,8 +1,94 @@
 @import 'variables';
 h1{
-    background-color: $red-color;
+    color: red;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d94566;
+}
+.chia-cot{
+    display: flex;
+}
+.mb-3{
+    margin-left: 20px;
+}
+.card-item{
+    margin-top: 20px;
+    
+}
+.card-title{
+    color: #2489F4;
+}
+.book_name{
+    color: #2489F4;
+}
+.fa-star{
+    color: #ffb323;
+}
+#header_title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(41, 0, 128);
+}
+.Book_detail{
+    display: flex;
+}
+.book_text_con{
+    display: flex;
+    justify-content: space-around;
+}
+.info_tg{
+    margin-left: 30px;
 }
 
-.card-item{
-    margin-top: 5px;
+.sl{
+    border: 1px solid #000;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+#footer{
+    margin-top: 10px;
+}
+
+.register{
+    display: flex;
+    padding: 5px 20px;
+    border: 1px solid #000;
+    background-color: #9fa7ab;
+    justify-content: center;
+    align-items: center;
+}
+
+.register h3{
+    color: white;
+}
+
+.footer_text_box{
+    margin-left: 30px;
+
+}
+
+.info_footer{
+    width: 25%;
+    margin-left: 20px;
+}
+.info_footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.info_footer ul li{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: left;
+}
+.text_footer{
+    display: flex;
+    justify-content: space-between;
 }
